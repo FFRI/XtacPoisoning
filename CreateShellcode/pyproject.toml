@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "createshellcode"
+version = "0.1.0"
+description = ""
+authors = ["Koh M. Nakagawa"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+r2pipe = "^1.7.1"
+typer = "^0.6.1"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.12.0"
+black = "^23.1.0"
+mypy = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
